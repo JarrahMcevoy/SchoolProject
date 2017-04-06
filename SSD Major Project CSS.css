@@ -1,8 +1,38 @@
 @charset "utf-8";
 div {
-	border-style: solid;
-	border-colour: black;
+	outline-style: solid;
+	outline-colour: black;
 	float: left;
+}
+
+.column1 {
 	height: 80vh;
-	width: calc(100vh/3);
+	width: calc(100%/3);
+	background-image: url("Background1.png");
+	background-repeat: repeat;
+	background-position: right bottom;
+}
+
+.column2 {
+	height: 80vh;
+	width: calc(100%/3);
+}
+
+.column3 {
+	height: 80vh;
+	width: calc(100%/3);
+}
+
+.row1 {
+	height: 7.5vh;
+	width: 100%;
+}
+
+.row2 {
+	height: 12.5vh;
+	width: 100%;
+}
+
+body {
+	margin: 0;
 }
