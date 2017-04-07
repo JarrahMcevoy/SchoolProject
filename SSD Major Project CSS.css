@@ -7,7 +7,7 @@ div {
 
 .column1 {
 	height: 80vh;
-	width: calc(100%/3);
+	width: calc(100%/4);
 	background-image: url("Background1.png");
 	background-repeat: repeat;
 	background-position: right bottom;
@@ -15,12 +15,21 @@ div {
 
 .column2 {
 	height: 80vh;
-	width: calc(100%/3);
+	width: calc(100%/2);
+	background-color: #edf0f1;
+	background-image: url("Background2.png");
+	background-repeat: repeat-x;
 }
 
 .column3 {
-	height: 80vh;
-	width: calc(100%/3);
+	height: 40vh;
+	width: calc(100%/4);
+}
+
+.column4 {
+	height: 40vh;
+	width: calc(100%/4);
+	
 }
 
 .row1 {
