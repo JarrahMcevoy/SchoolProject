@@ -1,7 +1,7 @@
 @charset "utf-8";
 div {
 	outline-style: solid;
-	outline-colour: black;
+	outline-color: black;
 	float: left;
 }
 
@@ -10,41 +10,35 @@ div {
 	width: calc(100%/4);
 	background-image: url("Background1.png");
 	background-repeat: repeat;
-	background-position: right bottom;
+	background-position: bottom right;
 }
 
 .column2 {
 	height: 80vh;
 	width: calc(100%/2);
+	background-color: #eff4f5;
 	background-image: url("Background2.png");
 	background-repeat: repeat-x;
-	background-color: #eff4f5;
-	
-}
-button{
-padding: 15px ;
-text-align:left;
-font-size:16px;
-width:360px;
-}
-img{
-	 display: block;
-    margin: auto;
-    width: auto;
 }
 
 .column3 {
 	height: 40vh;
 	width: calc(100%/4);
-	/* background-image: url();
-	background-repeat: repeat;
-	background-position: right bottom;
-	*/
+	background-image: url("Background3.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
+
 .column4 {
 	height: 40vh;
 	width: calc(100%/4);
+	background-image: url("Background4.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
+
 .row1 {
 	height: 7.5vh;
 	width: 100%;
