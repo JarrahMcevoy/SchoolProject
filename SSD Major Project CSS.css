@@ -10,13 +10,13 @@ div {
 	width: calc(100%/4);
 	background-image: url("Background1.png");
 	background-repeat: repeat;
-	background-position: right bottom;
+	background-position: bottom right;
 }
 
 .column2 {
 	height: 80vh;
 	width: calc(100%/2);
-	background-color: #edf0f1;
+	background-color: #eff4f5;
 	background-image: url("Background2.png");
 	background-repeat: repeat-x;
 }
@@ -24,12 +24,19 @@ div {
 .column3 {
 	height: 40vh;
 	width: calc(100%/4);
+	background-image: url("Background3.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .column4 {
 	height: 40vh;
 	width: calc(100%/4);
-	
+	background-image: url("Background4.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .row1 {
