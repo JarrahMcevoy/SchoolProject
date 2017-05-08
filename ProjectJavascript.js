@@ -41,6 +41,8 @@ textarea1.value = totalmoney
 textarea2.value = monpersec +"/sec"
 document.getElementById('button2').style.opacity='1'
 }else{}
-function buttonfunc(price, name, image, reward, text, flavourtext){
-document.getElementbyId('')
+function buttonfunc(id, price, name, image, reward, text, flavourtext){
+	document.createElement("button")
+	button.innerHTML = "Do Something"
+}
 }
