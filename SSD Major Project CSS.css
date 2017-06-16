@@ -1,53 +1,91 @@
 @charset "utf-8";
 div {
-	outline-style: solid;
-	outline-color: black;
-	float: left;
 }
 
 .column1 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
 	height: 80vh;
 	width: calc(100%/4);
 	background-image: url("Background1.png");
 	background-repeat: repeat;
-	background-position: bottom right;
+	background-position: right bottom;
 }
 
 .column2 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
 	height: 80vh;
 	width: calc(100%/2);
-	background-color: #eff4f5;
 	background-image: url("Background2.png");
 	background-repeat: repeat-x;
+	background-color: #eff4f5;
+	
+}
+.partbutton{
+	padding: 20px ;
+	margin: 2px;
+	width: 98.5%;
+	opacity: 50%;
+	background-color: #eff4f5;
+}
+
+.partbutton:hover
+img{
+	display: block;
+    margin: auto;
+    width: auto;
+}
+
+.expansionbutton{
+width: calc(100%);
 }
 
 .column3 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
 	height: 40vh;
 	width: calc(100%/4);
 	background-image: url("Background3.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
 
+}
 .column4 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
 	height: 40vh;
 	width: calc(100%/4);
 	background-image: url("Background4.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
 }
-
 .row1 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
 	height: 7.5vh;
 	width: 100%;
 }
 
 .row2 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
 	height: 12.5vh;
 	width: 100%;
 }
+/* Part Button */
+	.partbuttonprice {
+		padding: 15px;
+	}
+
 
 body {
 	margin: 0;
