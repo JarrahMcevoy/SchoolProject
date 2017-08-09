@@ -1,0 +1,195 @@
+@charset "utf-8";
+div {
+	font-family: Calibri;
+}
+
+.image {
+	display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+h1 {
+	margin: 0px;
+	text-shadow: 2px 2px grey;
+	color: white;
+	width: auto;
+	float: left;
+}
+
+h4 {
+	margin: 15px;
+	color: white;
+	width: auto;
+	float: right;
+}
+
+h2 {
+	margin: 0px;
+}
+
+h3 {
+	margin: 0px;
+}
+
+button {
+	float: right;
+	margin: 15px;
+	border-radius: 15px;
+	border: 2px solid #2480BA;
+	background: #3798D3;
+}
+
+.column1 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
+	height: 80vh;
+	width: calc(100%/4);
+	background-image: url("Background1.png");
+	background-repeat: repeat;
+	background-position: right bottom;
+}
+
+.column2 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
+	height: 80vh;
+	width: calc(100%/2);
+	background-image: url("Background2.png");
+	background-repeat: repeat-x;
+	background-color: #eff4f5;
+}
+
+/* Expansion Button */
+
+	.expansionbutton{
+		padding: 20px ;
+		margin: 2px;
+		background-color: #d9dddd;
+		width: 85%;
+		clear: both;
+	}
+	
+	.expansionbutton:hover{
+		box-shadow: 3px 3px 5px grey;
+		margin-bottom: 5px;
+	}
+	.expansionbutton:active{
+		background-color: #eff4f5;
+	}
+	.expansionbuttonprice{
+	
+	}
+	
+.column3 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
+	height: 40vh;
+	width: calc(100%/4);
+	background-image: url("Background3.png");
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+	overflow: auto;
+}
+.column4 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
+	height: 40vh;
+	width: 25%;
+	background-image: url("Background4.png");
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+	overflow: auto;
+}
+
+/* Part Button */
+
+	.partbutton{
+		padding: 20px ;
+		margin: 2px;
+		width: 85%;
+		background-color: #d9dddd;
+		clear: both;
+	}
+	.partbutton:hover{
+		box-shadow: 3px 3px 5px grey;
+		margin-bottom: 5px;
+	}
+	.partbutton:active{
+		background-color: #eff4f5;
+	}
+
+	.partbuttonprice {
+	}
+	.partbuttonamount {
+		float: right;
+	}
+	
+/* Upgrade Button */
+	
+	.upgradebutton{
+		width: 10vh;
+		height: 10vh;
+		margin: 5px;
+		background-color: #d9dddd;
+		float: left;
+		outline-color: black;
+		outline-style: solid;
+	}
+	
+	.upgradebuttondiv{
+		clear: both;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.upgradebutton:active{
+		background-color: #eff4f5;
+	}
+	
+	.upgradebuttonimage{
+		width: 100%;
+		height: 100%;
+		display: block;
+		vertical-align: center;
+
+	}
+	
+	.upgradeinfo{
+		float:right;
+		width: 50%;
+		margin: 10px;
+		padding: 5px;
+	}
+
+.row1 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
+	height: 7.5vh;
+	width: 100%;
+	background-color: #2D3E52;
+}
+
+.row2 {
+	outline-style: solid;
+	outline-color: black;
+	float: left;
+	height: 12.5vh;
+	width: 100%;
+	text-align: center;
+	background-color: #EEF3F5;
+}		
+
+body {
+	margin: 0;
+}
